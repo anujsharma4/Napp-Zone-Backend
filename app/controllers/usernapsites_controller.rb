@@ -1,3 +1,0 @@
-class UsernapsitesController < ApplicationController
-
-end
