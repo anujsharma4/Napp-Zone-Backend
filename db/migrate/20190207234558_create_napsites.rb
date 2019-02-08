@@ -6,6 +6,7 @@ class CreateNapsites < ActiveRecord::Migration[5.2]
       t.string :picture
       t.string :description
       t.integer :safety
+      t.integer :nap_id
 
       t.timestamps
     end
