@@ -11,27 +11,27 @@ User.destroy_all
 UserNapsite.destroy_all
 
 
-joseph = User.create(user_name: "sleepyjoe69", full_name: "Joseph Sleeper", password: "ilikesleep", user_id: 1)
-robin = User.create(user_name: "robinhood", full_name: "Young Beanz", password: "soymilk", user_id: 2)
-ben = User.create(user_name: "fatpimp", full_name: "PT Ben", password: "pushups", user_id: 3)
-ash = User.create(user_name: "Mamaash", full_name: "Mama Ash", password: "socurry", user_id: 4)
+joseph = User.create(user_name: "sleepyjoe69", full_name: "Joseph Sleeper", password: "ilikesleep")
+robin = User.create(user_name: "robinhood", full_name: "Young Beanz", password: "soymilk")
+ben = User.create(user_name: "fatpimp", full_name: "PT Ben", password: "pushups")
+ash = User.create(user_name: "Mamaash", full_name: "Mama Ash", password: "socurry")
 
 
 
 
-napsite1 = Napsite.create(name: "Turing", location: "Flatiron", picture: "", description: "Falling asleep sittng in a chair not uncomfortable but not impossible.", safety: 1, nap_id: 1 )
-napsite2 = Napsite.create(name: "Borg", location: "Flatiron", picture: "", description: "Falling asleep sittng in a chair not uncomfortable but not impossible.", safety: 2, nap_id: 2 )
-napsite3 = Napsite.create(name: "Meditation room", location: "WeWork", picture: "", description: "super cozy", safety: 10, nap_id: 3 )
-napsite4 = Napsite.create(name: "Phonebooth", location: "WeWork", picture: "", description: "private but very little space and limited time for nappage", safety: 7, nap_id: 4 )
-napsite5 = Napsite.create(name: "Big Yellow Couch", location: "WeWork", picture: "", description: "Super optimal for comfort, however provides no safety", safety: 1, nap_id: 5 )
+napsite1 = Napsite.create(name: "Turing", location: "Flatiron", picture: "", description: "Falling asleep sittng in a chair not uncomfortable but not impossible.", safety: 1)
+napsite2 = Napsite.create(name: "Borg", location: "Flatiron", picture: "", description: "Falling asleep sittng in a chair not uncomfortable but not impossible.", safety: 2)
+napsite3 = Napsite.create(name: "Meditation room", location: "WeWork", picture: "", description: "super cozy", safety: 10)
+napsite4 = Napsite.create(name: "Phonebooth", location: "WeWork", picture: "", description: "private but very little space and limited time for nappage", safety: 7)
+napsite5 = Napsite.create(name: "Big Yellow Couch", location: "WeWork", picture: "", description: "Super optimal for comfort, however provides no safety", safety: 1)
 
 
 
 
-UserNapsite.create(user_id: 1, nap_id: 2)
-UserNapsite.create(user_id: 1, nap_id: 1)
-UserNapsite.create(user_id: 1, nap_id: 5)
-UserNapsite.create(user_id: 2, nap_id: 4)
-UserNapsite.create(user_id: 2, nap_id: 1)
-UserNapsite.create(user_id: 3, nap_id: 1)
-UserNapsite.create(user_id: 4, nap_id: 3)
+UserNapsite.create(user_id: joseph.id, napsite_id: napsite1.id)
+UserNapsite.create(user_id: joseph.id, napsite_id: napsite5.id)
+UserNapsite.create(user_id: robin.id, napsite_id: napsite2.id)
+UserNapsite.create(user_id: robin.id, napsite_id: napsite4.id)
+UserNapsite.create(user_id: ben.id, napsite_id: napsite1.id)
+UserNapsite.create(user_id: ben.id, napsite_id: napsite2.id)
+UserNapsite.create(user_id: ash.id, napsite_id: napsite3.id)

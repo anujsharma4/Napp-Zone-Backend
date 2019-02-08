@@ -21,14 +21,13 @@ ActiveRecord::Schema.define(version: 2019_02_07_234633) do
     t.string "picture"
     t.string "description"
     t.integer "safety"
-    t.integer "nap_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
 
   create_table "user_napsites", force: :cascade do |t|
     t.integer "user_id"
-    t.integer "nap_id"
+    t.integer "napsite_id"
     t.string "time"
     t.integer "duration"
     t.datetime "created_at", null: false
@@ -39,7 +38,6 @@ ActiveRecord::Schema.define(version: 2019_02_07_234633) do
     t.string "user_name"
     t.string "full_name"
     t.string "password"
-    t.integer "user_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

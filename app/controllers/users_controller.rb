@@ -11,9 +11,9 @@ class UsersController < ApplicationController
   end
 
 
-  # def create
-  #   @users = User.create
-  # end
+  def create
+    # @users = User.create
+  end
 
 
 end
