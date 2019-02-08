@@ -7,7 +7,7 @@ class NapsitesController < ApplicationController
 
   def show
     @napsite = Napsite.find(params[:id])
-    render json: @playlist
+    render json: @napsite
 
   end
 
