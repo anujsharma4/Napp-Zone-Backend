@@ -19,11 +19,11 @@ ash = User.create(user_name: "Mamaash", full_name: "Mama Ash", password: "socurr
 
 
 
-napsite1 = Napsite.create(name: "Turing", location: "Flatiron", picture: "", description: "Falling asleep sittng in a chair not uncomfortable but not impossible.", safety: 1)
-napsite2 = Napsite.create(name: "Borg", location: "Flatiron", picture: "", description: "Falling asleep sittng in a chair not uncomfortable but not impossible.", safety: 2)
-napsite3 = Napsite.create(name: "Meditation room", location: "WeWork", picture: "", description: "super cozy", safety: 10)
-napsite4 = Napsite.create(name: "Phonebooth", location: "WeWork", picture: "", description: "private but very little space and limited time for nappage", safety: 7)
-napsite5 = Napsite.create(name: "Big Yellow Couch", location: "WeWork", picture: "", description: "Super optimal for comfort, however provides no safety", safety: 1)
+napsite1 = Napsite.create(name: "Turing", location: "Flatiron", picture: "https://drive.google.com/file/d/1RFgBKXj8Cxg5byMZa6dd1gXK8CMiFfY3/view?usp=sharing", description: "Falling asleep sittng in a chair not uncomfortable but not impossible.", safety: 1)
+napsite2 = Napsite.create(name: "Borg", location: "Flatiron", picture: "https://drive.google.com/file/d/1iAUUJzmECtcS5tZxPgpQeJuqMe8b1vo4/view?usp=sharing", description: "Falling asleep sittng in a chair not uncomfortable but not impossible.", safety: 2)
+napsite3 = Napsite.create(name: "Meditation room", location: "WeWork", picture: "https://drive.google.com/file/d/1rtyRo8PIEFYmxlWp9XXhYbKQDdM8FJ5D/view?usp=sharing", description: "super cozy", safety: 10)
+napsite4 = Napsite.create(name: "Phonebooth", location: "WeWork", picture: "https://drive.google.com/file/d/1Msx7Leb_Bc9wDTWNcaE9dWf6fEWjm9Db/view?usp=sharing", description: "private but very little space and limited time for nappage", safety: 7)
+napsite5 = Napsite.create(name: "Big Yellow Couch", location: "WeWork", picture: "https://drive.google.com/file/d/1rtyRo8PIEFYmxlWp9XXhYbKQDdM8FJ5D/view?usp=sharing", description: "Super optimal for comfort, however provides no safety", safety: 1)
 
 
 
