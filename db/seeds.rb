@@ -27,14 +27,15 @@ napsite5 = Napsite.create(name: "Big Yellow Couch", location: "WeWork", picture:
 napsite6 = Napsite.create(name: "Under A Bridge", location: "Outside", picture: "https://i.imgur.com/lz8fsFK.jpg", description: "Super optimal for comfort, however provides no safety", safety: 1)
 napsite7 = Napsite.create(name: "Under A Table", location: "WeWork", picture: "https://i.imgur.com/rk4O99I.jpg", description: "Super optimal for comfort, however provides no safety", safety: 1)
 napsite8 = Napsite.create(name: "On Top Of A Table", location: "WeWork", picture: "https://i.imgur.com/7pHsAzO.jpg", description: "Super optimal for comfort, however provides no safety", safety: 3)
-napsite9 = Napsite.create(name: "In A Corner", location: "WeWork", picture: "https://i.imgur.com/CIIB6JQ.jpg", description: "Super optimal for comfort, however provides no safety", safety: 4)
+napsite9 = Napsite.create(name: "In A Corner", location: "WeWork", picture: "https://i.imgur.com/TdIONjO.jpg", description: "Super optimal for comfort, however provides no safety", safety: 4)
 napsite10 = Napsite.create(name: "Jonnels Room", location: "WeWork", picture: "https://i.imgur.com/vq3V1JH.jpg", description: "Super optimal for comfort, however provides no safety", safety: 2)
 napsite11 = Napsite.create(name: "Behind Coffee Counter", location: "WeWork", picture: "https://i.imgur.com/AHrDOUW.jpg", description: "Super optimal for comfort, however provides no safety", safety: 5)
-napsite12 = Napsite.create(name: "In A Recliner", location: "WeWork", picture: "https://i.imgur.com/TdIONjO.jpg", description: "Super optimal for comfort, however provides no safety", safety: 8)
+napsite12 = Napsite.create(name: "In A Recliner", location: "WeWork", picture: "https://i.imgur.com/HKQ2TZW.jpg", description: "Super optimal for comfort, however provides no safety", safety: 8)
 napsite13 = Napsite.create(name: "A Basement", location: "WeWork", picture: "https://i.imgur.com/Lo7g7Xz.jpg", description: "Super optimal for comfort, however provides no safety", safety: 6)
 napsite14 = Napsite.create(name: "In A Plane", location: "Traveling", picture: "https://i.imgur.com/sWwnXiC.jpg", description: "Super optimal for comfort, however provides no safety", safety: 1)
 napsite15 = Napsite.create(name: "Behind The Lecture Podium", location: "WeWork", picture: "https://i.imgur.com/sWwnXiC.jpg", description: "Super optimal for comfort, however provides no safety", safety: 1)
 napsite16 = Napsite.create(name: "Rooftop", location: "WeWork", picture: "https://i.imgur.com/sWwnXiC.jpg", description: "Super optimal for comfort, however provides no safety", safety: 10)
+
 
 
 UserNapsite.create(user_id: joseph.id, napsite_id: napsite1.id)
